@@ -1,1 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.poker-card {
+  width: 350px;
+  height: 500px;
+}
+h1 {
+  text-align: center;
+}
