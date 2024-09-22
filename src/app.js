@@ -13,7 +13,7 @@ window.onload = function() {
     "Q",
     "J",
     "A",
-    "0",
+    "10",
     "1",
     "2",
     "3",
