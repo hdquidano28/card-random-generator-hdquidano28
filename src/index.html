@@ -24,19 +24,23 @@
   <body>
     <h1>POKER CARD GENERATOR</h1>
     <div class="container d-flex justify-content-center">
-      <div class="card text-center poker-card bg-">
-        <div class="card-header">
-          <i class="bi bi-suit-spade-fill" id="randomSuite"></i>
-        </div>
-        <div class="card-body">
-          <p class="card-text">
-            <i class="bi bi-suit-heart-fill"
-              ><i class="bi bi-suit-club-fill"></i>
-            </i>
-          </p>
-        </div>
-        <div class="card-footer text-muted">
-          <i class="bi bi-suit-diamond-fill"></i>
+      <div class="row justify-content-center">
+        <div class="col-3 d-flex card poker-card flex-column">
+          <div class="row align-items-start">
+            <div class="col">
+              <p class="text-start suite1-text" id="suite1"></p>
+            </div>
+          </div>
+          <div class="row flex-fill align-items-center justify-content-center">
+            <div class="col">
+              <p class="center-icon" id="randomLetter"></p>
+            </div>
+          </div>
+          <div class="row d-flex align-items-end">
+            <div class="col">
+              <p class="text-end suite2-text flip-vertically" id="suite2"></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

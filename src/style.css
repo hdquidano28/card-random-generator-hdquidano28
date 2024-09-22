@@ -2,10 +2,42 @@
 body {
   background-color: green;
 }
+
 .poker-card {
-  width: 350px;
-  height: 500px;
+  width: 270px;
+  height: 450px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+p {
+  font-size: 100px;
+  margin: 0;
+}
+
 h1 {
   text-align: center;
+}
+
+.suite1-text {
+  margin-top: -30px;
+  padding-left: -50px;
+  padding-top: -10px;
+}
+
+.suite2-text {
+  margin-bottom: -30px;
+  padding-right: -50px;
+}
+
+.center-icon {
+  height: 100px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.flip-vertically {
+  transform: scaleY(-1);
 }
